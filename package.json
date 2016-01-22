@@ -1,0 +1,63 @@
+{
+  "name": "sails-hook-magik-tenant",
+  "version": "0.0.1",
+  "author": "MagikEvolution",
+  "homepage": "https://github.com/Magikevolution/sails-hook-magik-tenant",
+  "contributors": [
+    {
+      "name": "zeluis9",
+      "github": "https://github.com/zeluis9"
+    },
+    {
+      "name": "joseasrocha",
+      "github": "https://github.com/joseasrocha"
+    }
+  ],
+  "description": "A Sails.js hook that aims to provide multi-tenancy support with sequelize ORM.",
+  "keywords": [
+    "multi",
+    "tenant",
+    "tenancy",
+    "multi-tenant",
+    "multi-tenancy",
+    "sails multi tenant",
+    "sails multi tenancy",
+    "sails-multi-tenant",
+    "sails-multi-tenancy",
+    "hook",
+    "sails hook",
+    "sails-hook",
+    "sails",
+    "sails.js",
+    "sequelize",
+    "orm",
+    "sequelize multi tenant",
+    "sequelize-multi-tenant"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "async": "1.5.0",
+    "bluebird": "3.0.5",
+    "continuation-local-storage": "3.1.4",
+    "lodash": "3.10.1",
+    "node-redis-pubsub": "0.6.0",
+    "node-uuid": "1.4.7",
+    "redefine": "0.2.1",
+    "sequelize": "3.14.1",
+    "umzug": "1.7.1"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Magikevolution/sails-hook-magik-tenant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Magikevolution/sails-hook-magik-tenant/issues"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "license": "Apache-2.0"
+}
