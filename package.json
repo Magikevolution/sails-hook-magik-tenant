@@ -1,7 +1,7 @@
 {
   "name": "sails-hook-magik-tenant",
   "version": "0.0.1",
-  "author": "MagikEvolution",
+  "author": "MagikEvolution <magikevolution@gmail.com> (http://www.magikevolution.com)",
   "homepage": "https://github.com/Magikevolution/sails-hook-magik-tenant",
   "contributors": [
     {
@@ -59,5 +59,8 @@
   "engines": {
     "node": ">= 4.0.0"
   },
-  "license": "Apache-2.0"
+  "license": {
+    "type": "Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }
 }
